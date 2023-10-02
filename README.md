@@ -5,7 +5,7 @@ The CIFAR-10 Image Classification project is a machine learning endeavor that ai
 ``` python
 from tensorflow.keras.datasets import cifar10
 # Load the CIFAR-10 dataset
-(train_images, train_labels), (test_images, test_labels) = cifar10.load_data()
+cifar10.load_data()
 ```
 
 # Key Components and Steps:
